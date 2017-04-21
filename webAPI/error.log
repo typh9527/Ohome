@@ -1,0 +1,15 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "app.py", line 112, in <module>
+    app.run(debug=True,host='0.0.0.0',port=36666)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 841, in run
+    run_simple(host, port, sException in thread Thread-1 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 699, in inner
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 536, in serve_forever
+  File "/usr/lib/python2.7/SocketServer.py", line 236, in serve_forever
+  File "/usr/lib/python2.7/threading.py", line 585, in set
+  File "/usr/lib/python2.7/threading.py", line 407, in notifyAll
+<type 'exceptions.TypeError'>: 'NoneType' object is not callable
