@@ -13,4 +13,3 @@
 
 ## 联系我们
 www.xidian.edu.cn
-同步
